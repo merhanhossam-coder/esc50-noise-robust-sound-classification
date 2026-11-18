@@ -46,7 +46,7 @@ python scripts/run_all.py all                         # EVERYTHING (resumable): 
 `experiments/tables/` and `experiments/figures/` (including error analysis).
 ## 6. Demo
 ```bash
-python scripts/export_demo_checkpoint.py   # saves checkpoints/hybrid_demo.pt (or download from the drive link below)
+python scripts/export_demo_checkpoint.py   # saves checkpoints/hybrid_demo.pt (Not needed: small checkpoints are included in checkpoints/; the dataset is downloaded by data/prepare_esc50.py)
 python demo/app.py                         # Gradio UI: upload/record audio, choose noise SNR, see top-5 classes
 ```
 ## 6b. Running in Google Colab
